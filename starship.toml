@@ -3,11 +3,6 @@ add_newline = false
 format = '''
 $time $username $directory $character 
 '''
-
-right_format = '''
-$all
-'''
-
 [time]
 disabled = false
 format = '[\[$time\]]($style)'
