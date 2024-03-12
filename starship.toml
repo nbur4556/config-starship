@@ -38,6 +38,18 @@ symbol = ' '
 format = '[$symbol\($branch\) ]($style)'
 style = 'white'
 
+[git_state]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_status]
+disabled = true
+
 [nodejs]
 format = '[$symbol]($style)'
 style = 'red'
