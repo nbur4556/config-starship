@@ -58,3 +58,6 @@ style = 'red'
 symbol = ' '
 format = '[$symbol]($style)'
 style = 'blue'
+
+[cmd_duration]
+disabled = true
