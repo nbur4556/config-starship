@@ -66,3 +66,11 @@ style = 'blue'
 symbol = ' '
 format = '[$symbol]($style)'
 style = 'blue'
+
+[rust]
+symbol = ' '
+format = '[$symbol]($style)'
+style = 'yellow'
+
+[package]
+disabled = true
