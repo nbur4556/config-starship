@@ -1,8 +1,11 @@
 add_newline = false
 
 format = '''
-$time $username $directory $git_branch $nodejs $lua
-\$ 
+$time $username $directory \$ 
+'''
+
+right_format = '''
+$git_branch $nodejs $lua
 '''
 
 [time]
@@ -28,7 +31,7 @@ read_only_style = 'red'
 [git_branch]
 always_show_remote = true
 format = '[$symbol\($branch\)]($style)'
-style = 'italic white'
+style = 'green'
 
 [nodejs]
 format = '[$symbol$version]($style)'
