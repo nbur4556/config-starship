@@ -1,12 +1,6 @@
 add_newline = false
 
-format = '''
-$time $username $directory $character 
-'''
-
-right_format = '''
-$all
-'''
+format = '$time $username $directory $fill $all $linebreak'
 
 [time]
 disabled = false
@@ -61,3 +55,6 @@ style = 'blue'
 
 [cmd_duration]
 disabled = true
+
+[fill]
+symbol = ' '
