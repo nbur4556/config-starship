@@ -1,11 +1,11 @@
 add_newline = false
 
 format = '''
-$time $username $directory \$ 
+$time $username $directory $character 
 '''
 
 right_format = '''
-$git_branch $nodejs $lua
+$all
 '''
 
 [time]
@@ -22,17 +22,21 @@ style_root = 'bold red'
 
 [directory]
 truncation_symbol = '../'
-format = '[$path/]($style)[ $read_only]($read_only_style)'
-# TODO: should use a nerd symbol of some kind
+format = '[$path/]($style)[$read_only]($read_only_style)'
 read_only = ''
 style = 'bold yellow'
 read_only_style = 'blink red'
 
+[character]
+success_symbol = '[](bold white)'
+error_symbol = '[](bold red)'
+format = '$symbol'
+
 [git_branch]
 always_show_remote = true
 symbol = ' '
-format = '[$symbol\($branch\)]($style)'
-style = 'green'
+format = '[$symbol\($branch\) ]($style)'
+style = 'white'
 
 [nodejs]
 format = '[$symbol]($style)'
