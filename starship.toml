@@ -22,8 +22,8 @@ style = 'bold yellow'
 read_only_style = 'blink red'
 
 [character]
-success_symbol = '[](bold white)'
-error_symbol = '[](bold red)'
+success_symbol = '[](bold white)'
+error_symbol = '[](bold red)'
 format = '$symbol'
 
 [cmd_duration]
@@ -53,6 +53,7 @@ disabled = true
 
 # Programming Language Modules
 [nodejs]
+symbol = ' '
 format = '[$symbol]($style)'
 style = 'red'
 
@@ -62,5 +63,6 @@ format = '[$symbol]($style)'
 style = 'blue'
 
 [dotnet]
+symbol = ' '
 format = '[$symbol]($style)'
 style = 'blue'
