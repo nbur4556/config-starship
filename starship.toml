@@ -1,7 +1,7 @@
 add_newline = false
 
 format = '''
-$time $username $directory
+$time $username $directory $git_branch
 \$ 
 '''
 
@@ -20,6 +20,12 @@ style_root = 'bold red'
 [directory]
 truncation_symbol = '../'
 format = '[$path/]($style)[ $read_only]($read_only_style)'
+# TODO: should use a nerd symbol of some kind
 read_only = 'x'
 style = 'bold yellow'
 readonly_style = 'italic red'
+
+[git_branch]
+always_show_remote = true
+format = '[$symbol\($branch\)]($style)'
+style = 'white'
