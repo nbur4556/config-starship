@@ -15,8 +15,11 @@ disabled = false
 show_always = true
 format = '[$user]($style)'
 style_user = 'bold green'
+style_root = 'bold red'
 
 [directory]
 truncation_symbol = '../'
-format = '[$path/]($style)'
+format = '[$path/]($style)[ $read_only]($read_only_style)'
+read_only = 'x'
 style = 'bold yellow'
+readonly_style = 'italic red'
