@@ -1,7 +1,8 @@
 add_newline = false
 
 format = '''
-$time $username $directory $character 
+$time $username $directory $fill $all
+$character
 '''
 [time]
 disabled = false
