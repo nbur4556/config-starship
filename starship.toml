@@ -1,0 +1,10 @@
+add_newline = false
+
+format = '''
+$time $directory$hostname
+\$ 
+'''
+
+[time]
+disabled = false
+format = '[\[$time\]]($style)'
