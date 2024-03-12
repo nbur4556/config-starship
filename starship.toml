@@ -24,19 +24,21 @@ style_root = 'bold red'
 truncation_symbol = '../'
 format = '[$path/]($style)[ $read_only]($read_only_style)'
 # TODO: should use a nerd symbol of some kind
-read_only = 'x'
+read_only = ''
 style = 'bold yellow'
-read_only_style = 'red'
+read_only_style = 'blink red'
 
 [git_branch]
 always_show_remote = true
+symbol = ' '
 format = '[$symbol\($branch\)]($style)'
 style = 'green'
 
 [nodejs]
-format = '[$symbol$version]($style)'
-style = 'italic white'
+format = '[$symbol]($style)'
+style = 'red'
 
 [lua]
-format = '[$symbol$version]($style)'
-style = 'italic white'
+symbol = ' '
+format = '[$symbol]($style)'
+style = 'blue'
