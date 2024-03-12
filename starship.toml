@@ -1,8 +1,7 @@
 add_newline = false
 
-format = '''
-$time $username $directory $fill $all $linebreak
-'''
+format = '$time $username $directory $fill $all $linebreak'
+
 [time]
 disabled = false
 format = '[\[$time\]]($style)'
