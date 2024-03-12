@@ -68,7 +68,7 @@ format = '[$symbol]($style)'
 style = 'blue'
 
 [rust]
-symbol = ' '
+symbol = ' '
 format = '[$symbol]($style)'
 style = 'yellow'
 
