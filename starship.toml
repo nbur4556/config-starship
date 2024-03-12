@@ -1,7 +1,7 @@
 add_newline = false
 
 format = '''
-$time $username $directory $git_branch
+$time $username $directory $git_branch $nodejs $lua
 \$ 
 '''
 
@@ -23,9 +23,17 @@ format = '[$path/]($style)[ $read_only]($read_only_style)'
 # TODO: should use a nerd symbol of some kind
 read_only = 'x'
 style = 'bold yellow'
-readonly_style = 'italic red'
+read_only_style = 'red'
 
 [git_branch]
 always_show_remote = true
 format = '[$symbol\($branch\)]($style)'
-style = 'white'
+style = 'italic white'
+
+[nodejs]
+format = '[$symbol$version]($style)'
+style = 'italic white'
+
+[lua]
+format = '[$symbol$version]($style)'
+style = 'italic white'
