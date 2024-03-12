@@ -26,6 +26,13 @@ success_symbol = '[](bold white)'
 error_symbol = '[](bold red)'
 format = '$symbol'
 
+[cmd_duration]
+disabled = true
+
+[fill]
+symbol = ' '
+
+# Git Modules
 [git_branch]
 always_show_remote = true
 symbol = ' '
@@ -44,6 +51,7 @@ disabled = true
 [git_status]
 disabled = true
 
+# Programming Language Modules
 [nodejs]
 format = '[$symbol]($style)'
 style = 'red'
@@ -53,8 +61,6 @@ symbol = ' '
 format = '[$symbol]($style)'
 style = 'blue'
 
-[cmd_duration]
-disabled = true
-
-[fill]
-symbol = ' '
+[dotnet]
+format = '[$symbol]($style)'
+style = 'blue'
