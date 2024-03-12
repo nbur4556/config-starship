@@ -1,10 +1,22 @@
 add_newline = false
 
 format = '''
-$time $directory$hostname
+$time $username $directory
 \$ 
 '''
 
 [time]
 disabled = false
 format = '[\[$time\]]($style)'
+style = 'bold cyan'
+
+[username]
+disabled = false
+show_always = true
+format = '[$user]($style)'
+style_user = 'bold green'
+
+[directory]
+truncation_symbol = '../'
+format = '[$path/]($style)'
+style = 'bold yellow'
